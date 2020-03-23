@@ -1,0 +1,35 @@
+div {
+    width: 410px;
+    height: 450px;
+    border: 1px solid red;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+img{
+    border-bottom: 1px solid red;
+    transition: 1s;
+    border-width: 0px;
+    width: 410px;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    margin-left: 29px;
+    margin-top: 39px;
+    font-family: Arial;
+}
+a:hover{
+    color: blue;		
+}
+img:hover{
+    transform: scale(2);
+    transition: 1s;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5px;
+    font-weight: normal;
+}
